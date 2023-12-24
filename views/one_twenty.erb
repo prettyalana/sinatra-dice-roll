@@ -1,0 +1,14 @@
+<h1>1d20<h1>
+<h4>One 20-sided Dice<h4>
+
+<% @rolls.each do |a_roll|%>
+<li>
+<%= a_roll%>
+</li>
+<% end %>
+
+<% if @dice_num.even? %>
+<p style="color: pink"> <%= @outcome%> </p>
+<% else %>
+<p style="color: blue"> <%= @outcome %></p>
+<% end %>

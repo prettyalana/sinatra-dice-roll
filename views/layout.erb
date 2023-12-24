@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dice Roll</title>
+  <style>
+    .navbar{
+      display: flex;
+      justify-content: space-around;
+  }
+  background-image {
+    
+  }
+  </style>
+</head>
+<body>
+<div class="navbar">
+<div><a href="/">Home</a></div>
+<div><a href="/dice/2/6">Roll two 6-sided dice</a></div>
+  <div><a href="/dice/2/10">Roll two 10-sided dice</a></div>
+  <div><a href="/dice/1/20">Roll one 20-sided dice</a></div>
+  <div><a href="/dice/5/4">Roll five 4-sided dice</a></div>
+  <!--<div><a href="/dice/100/6">Roll one hundred 6-sided dice</a></div>-->
+</div>
+
+<%= yield %>
+
+</body>
+</html>
